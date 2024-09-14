@@ -1,21 +1,3 @@
-
--- CS4400: Introduction to Database Systems (Spring 2024)
--- Phase III: Stored Procedures & Views [v1] Wednesday, March 27, 2024 @ 5:20pm EST
-
--- Team __
--- Uday Goyat
--- Yiyang Yu
--- Srithan Nalluri
--- Sritan Talluri
-
--- Directions:
--- Please follow all instructions for Phase III as listed on Canvas.
--- Fill in the team number and names and GT usernames for all members above.
--- Create Table statements must be manually written, not taken from an SQL Dump file.
--- This file must run without error for credit.
-
-/* This is a standard preamble for most of our scripts.  The intent is to establish
-a consistent environment for the database behavior. */
 set global transaction isolation level serializable;
 set global SQL_MODE = 'ANSI,TRADITIONAL';
 set names utf8mb4;
