@@ -1,0 +1,30 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust as needed */
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1); /* Optional: adds a slight shadow for depth */
+  }
+  
+  .table th, 
+  .table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd; /* Light grey border */
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f8f8f8; /* Light grey background for headers */
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+  }
+  
+  .table tr:hover {
+    background-color: #eaeaea; /* Highlight on hover */
+  }
+  
+  .table tbody tr:last-child td {
+    border-bottom: none;
+  }
